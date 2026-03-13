@@ -44,7 +44,7 @@ Error generating stack: `+n.message+`
 3. 找到软件相关提示，点击「仍然打开」
 4. 确认打开即可`,img:"/wufayanzheng.png"},{q:"Mac M系列，提示包已经损坏",a:`解决方式：很简单，打开命令行窗口（又名终端），输入下面这一行代码即可
 
-代码：sudo xattr -cr "Applications/QuizClaw.app"
+代码：sudo xattr -cr "/Applications/QuizClaw.app"
 
 输入的时候，会提示让你输入密码，那你输入电脑的开屏密码即可。
 
